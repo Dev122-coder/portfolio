@@ -2,449 +2,447 @@
    RESET
 ========================= */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #171350;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    overflow-x: hidden;
+  background-color: #171350;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 /* =========================
    NAVBAR
 ========================= */
 nav {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    height: 110px;
-    width: 100%;
-    background-color: #8079eb;
-    border-radius: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 110px;
+  width: 100%;
+  background-color: #8079eb;
+  border-radius: 0.5rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 /* Social icons */
 .logo {
-    display: flex;
-    /* flex-direction: column; */
-    gap: 0.4rem;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 0.4rem;
 }
 
 .logo i {
-    font-size: 1.2rem;
-    color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
 }
 
 .logo i:hover {
-    color: rgb(60, 0, 255);
+  color: rgb(60, 0, 255);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Center name */
 .D {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.6rem;
-    flex: 1;
-    padding-right: -2rem;
-    margin-right: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  flex: 1;
+  padding-right: -2rem;
+  margin-right: 15rem;
 }
 
 .D img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
 .D h1 {
-    font-family: "Amarante", serif;
-    margin-left: -0.8rem;
+  font-family: "Amarante", serif;
+  margin-left: -0.8rem;
 }
 
 /* Menu */
 .sticky_nav_options {
-    display: flex;
-    gap: 0.4rem;
-    /* padding-right: 4rem; */
-    margin-right: 12rem;
+  display: flex;
+  gap: 0.4rem;
+  /* padding-right: 4rem; */
+  margin-right: 12rem;
 }
 
 .badge {
-    background-color: #8079eb;
-    color: white;
-    border: none;
-    border-radius: 1rem;
-    font-weight: 600;
-    padding: 0.4rem 0.8rem;
-    font-size: 1rem;
-    cursor: pointer;
-    font-family: "Oswald", sans-serif;
+  background-color: #8079eb;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
 }
 
 .badge:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .first {
-    color: #fefefe;
-    /* background-color: white; */
-    /* font-size: 2rem; */
+  color: #fefefe;
+  /* background-color: white; */
+  /* font-size: 2rem; */
 }
 
 /* =========================
    HERO SECTION
 ========================= */
 .main_content {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 /* Background text */
 .bg-text {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: clamp(10rem, 18vw, 18rem);
-    font-weight: 800;
-    color: transparent;
-    -webkit-text-stroke: 2px rgba(255,255,255,0.1);
-    pointer-events: none;
-    z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: clamp(10rem, 18vw, 18rem);
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* Main layout */
 .mainn {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 
-    width: 100%;
-    max-width: 1400px;
-    padding: 2rem 4rem;
+  width: 100%;
+  max-width: 1400px;
+  padding: 2rem 4rem;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Text */
 .hh h1 {
-    font-size: 3.2rem;
-    padding-top: 7rem;
+  font-size: 3.2rem;
+  padding-top: 7rem;
 }
 
 .hh p {
-    margin-top: 1rem;
-    color: #aaaaaa;
+  margin-top: 1rem;
+  color: #aaaaaa;
 }
 
 /* =========================
    IMAGE
 ========================= */
 .img-wrap {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .circle-bg {
-    position: absolute;
-    width: clamp(260px, 28vw, 400px);
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #7f5cff, #5ad7ff);
-    z-index: 1;
+  position: absolute;
+  width: clamp(260px, 28vw, 400px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7f5cff, #5ad7ff);
+  z-index: 1;
 }
 
 .img-wrap img {
-    position: relative;
-    z-index: 2;
-    max-height: 27rem;
+  position: relative;
+  z-index: 2;
+  max-height: 27rem;
 }
 
 /* =========================
    SECTIONS
 ========================= */
 .about {
-    max-width: 1400px;
-    margin: 0 1rem;
-    padding: 6rem 4rem;
+  max-width: 1400px;
+  margin: 0 1rem;
+  padding: 5rem 0rem 0rem 4rem;
 }
 
 .about h1 {
-    font-size: 3rem;
-    text-decoration: underline;
-    font-family: "Amarante", serif;
-    margin-bottom: 1rem;
+  font-size: 3rem;
+  text-decoration: underline;
+  font-family: "Amarante", serif;
+  margin-bottom: 1rem;
 }
 
 .about p {
-    font-family: "Aubrey", system-ui;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
+  font-family: "Aubrey", system-ui;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
 }
 
 .contact,
 .porto {
-    margin-top: 8rem;
+  margin-top: 8rem;
 }
 
 /* =========================
    CONTACT
 ========================= */
 .both {
-    max-width: 1400px;
-    margin: 0 auto;
+  max-width: 1400px;
+  margin: 0 auto;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* Left info */
 .log {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding-top: 2rem;
-    padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 
 .log i {
-    font-size: 2rem;
-    padding-left: 0rem;
+  font-size: 2rem;
+  padding-left: 0rem;
 }
 
 .mail,
 .call {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
 }
 
 .mail:hover,
 .call:hover {
-    color: blue;
+  color: blue;
 }
 
 .log button {
-    width: 13rem;
-    height: 3.5rem;
-    margin-top: 2rem;
-    font-family: "Amarante", serif;
-    cursor: pointer;
+  width: 13rem;
+  height: 3.5rem;
+  margin-top: 2rem;
+  font-family: "Amarante", serif;
+  cursor: pointer;
 }
 
 .log button:hover {
-    background-color: gray;
-    color: white;
+  background-color: gray;
+  color: white;
 }
 
 /* Form */
 .desc {
-    width: 100%;
-    max-width: 37rem;   /* ⬅ longer form */
+  width: 100%;
+  max-width: 37rem; /* ⬅ longer form */
 }
 
 .desc form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    /* margin-left: 14rem; */
-    padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* margin-left: 14rem; */
+  padding-left: 1rem;
 }
 
 .desc .t,
 .desc .e,
 .desc .m {
-    width: 90%;
-    height: 4rem;
-    font-size: 1.4rem;
-    padding: 0 0.7rem;
-    border-radius: 1rem;
-    font-family: "Aubrey", system-ui;
+  width: 90%;
+  height: 4rem;
+  font-size: 1.4rem;
+  padding: 0 0.7rem;
+  border-radius: 1rem;
+  font-family: "Aubrey", system-ui;
 }
 
 .desc .m {
-    height: 15rem;
-    padding-top: 1rem;
+  height: 15rem;
+  padding-top: 1rem;
 }
 
 .desc button {
-    width: 11rem;
-    height: 4rem;
-    margin-top: 1.5rem;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 0.6rem;
-    font-family: "Aubrey", system-ui;
-    cursor: pointer;
+  width: 11rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  font-family: "Aubrey", system-ui;
+  cursor: pointer;
 }
 
 /* =========================
    FOOTER
 ========================= */
 .copy {
-    height: 4rem;
-    background-color: #6091f479;
-    margin-top: 10rem;
-    text-align: center;
+  height: 4rem;
+  background-color: #6091f479;
+  margin-top: 10rem;
+  text-align: center;
 }
 
 .copy p {
-    padding-top: 1rem;
-    font-size: 1rem;
-    font-weight: 200;
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: 200;
 }
-
 
 /* =========================
    MOBILE (PHONES)
 ========================= */
 @media (max-width: 950px) {
+  /* NAVBAR */
+  nav {
+    height: auto;
+    flex-direction: column;
+    /* gap: 0rem; */
+    padding: 1rem;
+  }
 
-    /* NAVBAR */
-    nav {
-        height: auto;
-        flex-direction: column;
-        /* gap: 0rem; */
-        padding: 1rem;
-    }
+  .logo {
+    flex-direction: row;
+    gap: 1rem;
+  }
 
-    .logo {
-        flex-direction: row;
-        gap: 1rem;
-    }
+  .D {
+    flex: none;
+    padding-left: 14rem;
+    margin-top: -1rem;
+  }
 
-    .D {
-        flex: none;
-        padding-left: 14rem;
-        margin-top: -1rem;
-    }
+  .sticky_nav_options {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0rem;
+    margin-right: 1rem;
+  }
 
-    .sticky_nav_options {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0rem;
-        margin-right: 1rem;
-    }
+  /* HERO */
+  .main_content {
+    min-height: auto;
+    padding: 4rem 0;
+  }
 
-    /* HERO */
-    .main_content {
-        min-height: auto;
-        padding: 4rem 0;
-    }
+  .bg-text {
+    font-size: 5rem;
+    top: 35%;
+  }
 
-    .bg-text {
-        font-size: 5rem;
-        top: 35%;
-    }
+  .mainn {
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    /* gap: 0rem; */
+  }
 
-    .mainn {
-        flex-direction: column;
-        padding: 2rem;
-        text-align: center;
-        /* gap: 0rem; */
-    }
+  .hh h1 {
+    font-size: 2.2rem;
+    margin-top: -11rem;
+  }
 
-    .hh h1 {
-        font-size: 2.2rem;
-        margin-top: -11rem;
-    }
+  /* IMAGE */
+  .circle-bg {
+    width: 220px;
+  }
 
-    /* IMAGE */
-    .circle-bg {
-        width: 220px;
-    }
+  .img-wrap img {
+    max-height: 18rem;
+    margin-top: 2rem;
+  }
 
-    .img-wrap img {
-        max-height: 18rem;
-        margin-top: 2rem;
-    }
+  /* SECTIONS */
+  .about {
+    padding: 4rem 2rem;
+  }
 
-    /* SECTIONS */
-    .about {
-        padding: 4rem 2rem;
-    }
+  .about h1 {
+    font-size: 2.2rem;
+  }
 
-    .about h1 {
-        font-size: 2.2rem;
-    }
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
 
-    .about p {
-        font-size: 1.2rem;
-        line-height: 1.8rem;
-    }
+  /* CONTACT */
+  .both {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0rem 2rem;
+    margin-right: -3rem;
+  }
 
-    /* CONTACT */
-    .both {
-        flex-direction: column;
-        gap: 3rem;
-        padding: 0rem 2rem;
-        margin-right: -3rem;
-    }
+  .log {
+    align-items: center;
+    text-align: center;
+    margin-left: -2.5rem;
+    justify-content: center;
+    /* height: 19rem; */
+    /* width: 40rem; */
+  }
 
-    .log {
-        align-items: center;
-        text-align: center;
-        margin-left: -2.5rem;
-        justify-content: center;
-        /* height: 19rem; */
-        /* width: 40rem; */
-    }
+  .desc {
+    max-width: 100%;
+    margin-left: -2rem;
+  }
 
-    .desc {
-        max-width: 100%;
-        margin-left: -2rem;
-    }
+  .desc .t,
+  .desc .e,
+  .desc .m {
+    width: 100%;
+    /* padding: 1rem 2rem 2rem 1rem; */
+    font-size: 1.1rem;
+  }
 
-    .desc .t,
-    .desc .e,
-    .desc .m {
-        width: 100%;
-        /* padding: 1rem 2rem 2rem 1rem; */
-        font-size: 1.1rem;
-    }
+  .desc button {
+    align-self: center;
+  }
 
-    .desc button {
-        align-self: center;
-    }
+  /* FOOTER */
+  .copy {
+    margin-top: 6rem;
+  }
 
-    /* FOOTER */
-    .copy {
-        margin-top: 6rem;
-    }
-
-    .call {
-        padding-right: 5rem;
-    }
+  .call {
+    padding-right: 5rem;
+  }
 }
 
 /* Smooth scrolling */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Offset fix for sticky navbar (VERY IMPORTANT) */
@@ -452,56 +450,174 @@ html {
 #about,
 #portfolio,
 #contact {
-    scroll-margin-top: 130px; /* slightly more than nav height (110px) */
+  margin-left: 1rem;
+  scroll-margin-top: 130px; /* slightly more than nav height (110px) */
 }
 
 /* Make anchor tags look like your buttons */
 .sticky_nav_options a {
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
 }
 
 /* =========================
    TABLET FIX (703px–803px)
 ========================= */
 @media (min-width: 703px) and (max-width: 1090px) {
+  nav {
+    padding: 0 1.1rem 0.4rem;
+  }
 
-    nav {
-        padding: 0 1.1rem 0.4rem;
-    }
+  /* Center logo/name properly */
+  .D {
+    padding-right: 26px;
+    flex: 1;
+    justify-content: center;
+    margin-top: 0rem;
+  }
 
-    /* Center logo/name properly */
-    .D {
-        padding-right: 26px;
-        flex: 1;
-        justify-content: center;
-        margin-top: 0rem;
-    }
+  /* Fix menu overflow */
+  .sticky_nav_options {
+    margin-right: 0px;
+    gap: 0.3rem;
+    padding-right: 2rem;
+  }
+  .desc form {
+    margin-left: 1rem;
+  }
 
-    /* Fix menu overflow */
-    .sticky_nav_options {
-        margin-right: 0px;
-        gap: 0.3rem;
-        padding-right: 2rem;
-    }
-    .desc form{
-        margin-left: 1rem;
-    }
-
-    .badge {
-        font-size: 0.85rem;
-        padding: 0.35rem 0.7rem;
-    }
+  .badge {
+    font-size: 0.85rem;
+    padding: 0.35rem 0.7rem;
+  }
+  .project-img-placeholder {
+    height: 23rem;
+  }
 }
 
-@media (min-width: 250px) and (max-width: 450px){
+@media (min-width: 250px) and (max-width: 450px) {
+  .desc {
+    width: 135%;
+    margin-left: -2.2rem;
+  }
+}
+/* =========================
+   PROJECTS GRID (FINAL FINAL)
+========================= */
 
-    .desc{
-        width: 135%; 
-         margin-left: -2.2rem;
-    }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.2rem;
 
+  max-width: 1400px;
+  margin: 4rem auto 0rem auto;   /* ✅ CENTER IT */
+  padding: 0 0rem;            /* ✅ MATCH ABOUT SECTION */
+}
+
+
+/* Card */
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1.4rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
+}
+
+/* Image */
+.project-img {
+  width: 100%;
+  height: 16rem;
+  overflow: hidden;
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.06);
+}
+
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+  }
+
+  .project-img {
+    height: 14rem;
+  }
+}
+
+/* =========================
+   PROJECT HOVER OVERLAY
+========================= */
+
+.project-img {
+  position: relative;
+}
+
+/* Overlay text */
+.project-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.project-overlay h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+  font-family: "Amarante", serif;
+}
+
+.project-overlay p {
+  font-size: 1rem;
+  color: #ddd;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Blur image on hover */
+.project-card:hover img,
+.project-card:focus-within img {
+  filter: blur(3px) brightness(0.7);
+  transform: scale(1.05);
+}
+
+/* Show overlay */
+.project-card:hover .project-overlay,
+.project-card:focus-within .project-overlay {
+  opacity: 1;
+}
+
+.project-overlay a {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
