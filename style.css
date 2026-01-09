@@ -243,8 +243,8 @@ a {
   cursor: pointer;
 }
 
-.mail:hover,
-.call:hover {
+.mail a:hover,
+.call a:hover {
   color: blue;
 }
 
@@ -620,4 +620,11 @@ html {
 .project-overlay a {
   font-size: 1.5rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.call a{
+    color: white;
+}
+.mail a{
+    color: white;
 }
