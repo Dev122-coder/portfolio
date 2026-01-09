@@ -1,87 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Amarante&family=Aubrey&family=Oswald:wght@300..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Amarante&family=Aubrey&family=Oswald:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
     <title>Digbijay Portfolio</title>
     <link rel="stylesheet" href="style.css">
-</head>
-
+  </head>
 <body>
+    
+<!-- ================= NAVBAR ================= -->
+<nav>
+    <div class="D">
+        <img src="img/kk.png" alt="">
+        <h1>DIGBIJAY</h1>
+    </div>
 
-    <!-- ================= NAVBAR ================= -->
-    <nav>
-      
+    <div class="sticky_nav_options">
+        <a href="#home" class="badge first">HOME</a>
+        <a href="#about" class="badge">ABOUT</a>
+        <a href="#portfolio" class="badge">PORTFOLIO</a>
+        <a href="#contact" class="badge last">CONTACT</a>
+    </div>
+</nav>
 
-        <div class="D">
-            <img src="img/kk.png" alt="">
-            <h1>DIGBIJAY</h1>
+<!-- ================= HERO ================= -->
+<section class="main_content" id="home">
+    <h1 class="bg-text">DIGBIJAY</h1>
+
+    <div class="mainn">
+        <div class="hh">
+            <h1>Hello 👋, I'm <br> Digbijay Pramanik</h1>
+            <p>[Full-Stack Developer]</p>
         </div>
 
-        <div class="sticky_nav_options">
-            <a href="#home" class="badge first">HOME</a>
-            <a href="#about" class="badge">ABOUT</a>
-            <a href="#portfolio" class="badge">PORTFOLIO</a>
-            <a href="#contact" class="badge last">CONTACT</a>
+        <div class="img-wrap">
+            <div class="circle-bg"></div>
+            <img src="img/oo.png" alt="Profile">
         </div>
-    </nav>
+    </div>
+</section>
 
-    <!-- ================= HERO ================= -->
-    <section class="main_content" id="home">
-        <h1 class="bg-text">DIGBIJAY</h1>
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+    <h1>About Me</h1>
+    <p>
+        Hello! I’m Digbijay Pramanik, a BCA student at Raiganj University, currently in my second year. I’m
+        passionate about software development and web design. While I’m actively working as a web developer, my
+        long-term goal is to grow into a full-stack and software developer. <br><br>
 
-        <div class="mainn">
-            <div class="hh">
-                <h1>Hello 👋, I'm <br> Digbijay Pramanik</h1>
-                <p>[Full-Stack Developer]</p>
-            </div>
+        I have hands-on experience with HTML, CSS, JavaScript, Python, and C/C++. I enjoy building modern,
+        responsive, and visually appealing websites. I consider myself a continuous learner, always exploring new
+        technologies and improving my skills through practice and real projects.
+    </p>
+</section>
 
-            <div class="img-wrap">
-                <div class="circle-bg"></div>
-                <img src="img/oo.png" alt="Profile">
-            </div>
+<!-- ================= PORTFOLIO ================= -->
+<section class="about porto" id="portfolio">
+    <h1>Portfolio</h1>
+    <p>
+        Welcome to my portfolio. This section showcases some of the projects I’ve built during my learning journey
+        as a web developer. Each project reflects my focus on clean design, responsiveness, and practical
+        problem-solving.<br><br>
+        Here you’ll find websites created using modern web technologies, where I’ve applied my skills in layout
+        design, animations, and user experience.
+    </p>
+<div class="projects-grid">
+    <div class="project-card">
+       
+        <div class="project-img">
+
+            <img src="img/Screenshot 2026-01-10 005031.png" alt="Project 1">
         </div>
-    </section>
+        <div class="project-overlay">
+            <h3>Spotify Clone - Devsfy</h3>
+            <p>Music streaming </p>
+            <a href="https://devsfy.netlify.app/" target="_blank">link</a>
+        </div>
+    </div>
 
-    <!-- ================= ABOUT ================= -->
-    <section class="about" id="about">
-        <h1>About Me</h1>
-        <p>
-            Hello! I’m Digbijay Pramanik, a BCA student at Raiganj University, currently in my second year. I’m
-            passionate about software development and web design. While I’m actively working as a web developer, my
-            long-term goal is to grow into a full-stack and software developer. <br><br>
+    <div class="project-card">
+        <div class="project-img">
+            <img src="img/a.jpg" alt="Project 2">
 
-            I have hands-on experience with HTML, CSS, JavaScript, Python, and C/C++. I enjoy building modern,
-            responsive, and visually appealing websites. I consider myself a continuous learner, always exploring new
-            technologies and improving my skills through practice and real projects.
-        </p>
-    </section>
+         </div>
+         <div class="project-overlay">
+            <h3>Fav anime list</h3>
+            <p>Anime's</p>
+            <a href="https://devsfy.netlify.app/" target="_blank">link</a>
+        </div>
+    </div>
 
-    <!-- ================= PORTFOLIO ================= -->
-    <section class="about porto" id="portfolio">
-        <h1>Portfolio</h1>
-        <p>
-            Welcome to my portfolio. This section showcases some of the projects I’ve built during my learning journey
-            as a web developer. Each project reflects my focus on clean design, responsiveness, and practical
-            problem-solving.
-            <br><br>
-            Here you’ll find websites created using modern web technologies, where I’ve applied my skills in layout
-            design, animations, and user experience. These projects represent my growth, creativity, and dedication to
-            becoming a better developer.
-        </p>
-    </section>
+    <div class="project-card">
+        <div class="project-img">
+            <img src="img/project3.png" alt="Project 3">
+        </div>
+    </div>
+</div>
 
-    <!-- ================= CONTACT ================= -->
+        <!-- You can add more cards here later -->
+    </div>
+</section>
+<!-- ================= CONTACT ================= -->
     <section class="about contact" id="contact">
         <h1>Contact Me</h1>
 
@@ -125,6 +151,6 @@
         <p>© Digbijay. All Rights Reserved</p>
     </footer>
 
-</body>
 
+</body>
 </html>
